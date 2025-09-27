@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePipeline Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+
+        h1 {
+            color: #0073bb;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .status {
+            margin-top: 20px;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: #dff0d8;
+            color: #3c763d;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 CodePipeline Deployment Demo</h1>
+        <p>This page was deployed automatically using <strong>AWS CodePipeline</strong>.</p>
+        <div class="status">
+            ✅ Deployment Status: Successful
+        </div>
+        <div class="footer">
+            Last updated: <script>document.write(new Date().toLocaleString());</script>
+        </div>
+    </div>
+</body>
+</html>
